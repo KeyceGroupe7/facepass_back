@@ -8,7 +8,7 @@ const app = express();
 const identifiantRoutes = require('./routes/identifiant');
 const userRoutes = require('./routes/user');
 
-mongoose.connect('mongodb+srv://' + credentials.user + ':' + credentials.pass + credentials.cluster, {
+mongoose.connect('mongodb+srv://' + credentials.user + ':' + credentials.password + credentials.cluster, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
