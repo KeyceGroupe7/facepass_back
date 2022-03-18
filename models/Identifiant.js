@@ -28,6 +28,9 @@ const identifiantSchema = mongoose.Schema({
     "date_modification": {
         type: Date,
         required: true
+    },
+    "id_user": {
+        type: String
     }
 })
 
